@@ -81,7 +81,7 @@ if __name__ == '__main__':
     LR = LogisticRegression()
     # (训练模型)
     LR.fit(X_train, y_train)
-    # (对模型的准确度进行计算()
+    # (对模型的准确度进行计算)
     print('模型的准确度:{}'.format(LR.score(X_test, y_test)))
     print("\n")
     # (对新的请求列表进行预测)
